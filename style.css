@@ -1,0 +1,169 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main styling */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+}
+
+     
+a {
+    color: black;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p { margin: 10px 0;
+}
+#navbar {
+    background: whitesmoke;
+    color: black;
+    overflow: auto;
+
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px ;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+#navbar ul li a:hover {
+    background-color:grey;
+    color: brown;
+
+}
+/* Hero*/
+#hero {
+    background: url('./assets/carathotel.jpg') no-repeat
+    center center/cover ;
+    height: 600px ;
+
+}
+#hero .hero-content {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 70px;
+    line-height: 0.5em;
+}
+
+/* icon */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    background: white;
+     
+}
+#main-footer {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+.heading1 {
+    text-align: center;
+    line-height: 0.5em;
+}
+.room24-carat {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.863) ;
+  padding: 10px;
+  
+}
+.room24-carat > div.description1 {
+    color: antiquewhite;
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+
+}
+
+.heading2 {
+    text-align: center;
+}
+#heading2 p {
+    text-align: center;
+    line-height: 0.5em;
+}
+
+.room22-carat {
+ display: flex; 
+ flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.863) ;
+  padding: 10px;
+}
+.room22-carat > div.description2 {
+    color: antiquewhite;
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+
+}
+.room20-carat {
+    display: flex; 
+    flex-direction: row;
+     background-color: rgba(0, 0, 0, 0.863) ;
+     padding: 10px;
+}
+.room20-carat > div.description3 {
+       color: antiquewhite;
+       text-align: left;
+       list-style: none;
+       padding: 20px;
+}  
+.heading3 {
+    text-align: center;
+}
+.
+/*contact-form */
+form {
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input , textarea {
+    width: 100%;
+    padding: 10px;
+    
+
+}
+/* amenities-section */
+.amenities {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.amenities > div {
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+    
+    
+  }
+
+  
+
+
+
