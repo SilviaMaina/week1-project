@@ -44,5 +44,5 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the<a href=""> LICENSE</a> file for details.
 # Contact
 sylviahmaina6@gmail.com<br>
-Project Link:
+Project Link:https://github.com/SilviaMaina/week1-project.git
 
